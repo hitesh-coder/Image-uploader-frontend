@@ -61,16 +61,19 @@
                 DELETE
             </div>
         </div>
+
+        <credits />
     </div>
 </template>
 
 <script>
 import postService from "../postService";
+import Credits from './credits.vue';
 import Dragndrop from "./dragndrop.vue";
 import preloader from "./preloader.vue";
 
 export default {
-    components: { preloader, Dragndrop },
+    components: { preloader, Dragndrop, Credits },
     name: "home",
     component: { preloader, Dragndrop },
     data() {
