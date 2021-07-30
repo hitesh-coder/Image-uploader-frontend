@@ -33,7 +33,7 @@
       style="width: 90%"
       @dragover.prevent="changeBorderToSolid"
       @dragleave="changeBorderToDashed"
-      @drop.prevent="imageDrop"
+      @drop.prevent="dropImage"
       v-else
     >
       <img src="../assets/image.svg" alt="" class="image-fluid mb-4" />
