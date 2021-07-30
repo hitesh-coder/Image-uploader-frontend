@@ -1,7 +1,6 @@
 <template>
   <div>
-    Created by <a href="https://github.com/hitesh-coder">HITESH</a> -
-    E-Cell Recruitment challenge
+    Created by <a href="https://github.com/hitesh-coder">HITESH</a> - Dev Challenges.io
   </div>
 </template>
 
@@ -12,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 
 div {
   height: 5vh;
